@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:smelting",
+  "ingredient" : {
+    "item" : "survivemushrooms:red_mushroom"
+  },
+  "result" : "survivemushrooms:cooked_red_mushroom",
+  "experience" : 0.1,
+  "cookingtime" : 100
+}

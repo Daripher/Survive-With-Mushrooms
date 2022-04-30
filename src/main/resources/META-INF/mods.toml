@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+
+[[mods]]
+	modId="survivemushrooms"
+	version="1.0"
+	displayName="Survive with Mushrooms"
+	authors="Daripher"
+	description='''Add-on for Survive mod that adds mushrooms.'''
+
+[[dependencies.survivemushrooms]]
+    modId="survive"
+    mandatory=true
+    versionRange="[7.0.2,)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "survivemushrooms:block/green_mushroom"
+    }
+  }
+}
