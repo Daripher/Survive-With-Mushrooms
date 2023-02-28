@@ -1,9 +1,9 @@
 package daripher.addon.survive.mushrooms.item;
 
-import net.minecraft.world.food.FoodProperties.Builder;
+import daripher.addon.survive.mushrooms.config.Config;
 
 public class CookedBlueMushroomItem extends FoodItem {
 	public CookedBlueMushroomItem() {
-		super(new Builder().alwaysEat());
+		super(Config.COMMON.cookedBlueMushroomEffects);
 	}
 }

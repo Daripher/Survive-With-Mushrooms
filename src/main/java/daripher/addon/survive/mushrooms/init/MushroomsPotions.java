@@ -11,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class MushroomsPotions {
 	public static final DeferredRegister<Potion> REGISTRY = DeferredRegister.create(ForgeRegistries.POTIONS, SurviveMushroomsAddon.MOD_ID);
 
-	public static final RegistryObject<Potion> SATURATION = register("saturation", MushroomsEffects.SATURATION, 1, 0);
+	public static final RegistryObject<Potion> SATURATION = register("saturation", MushroomsEffects.SATURATION, 1, 3);
 	public static final RegistryObject<Potion> STRONG_SATURATION = register("strong_saturation", MushroomsEffects.SATURATION, 1, 1);
 	public static final RegistryObject<Potion> THIRST_QUENCHING = register("thirst_quenching", MushroomsEffects.THIRST_QUENCHING, 1, 0);
 	public static final RegistryObject<Potion> STRONG_THIRST_QUENCHING = register("strong_thirst_quenching", MushroomsEffects.THIRST_QUENCHING, 1, 1);
