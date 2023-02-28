@@ -15,9 +15,9 @@ plugins {
 
 apply plugin: 'net.minecraftforge.gradle'
 
-version = '1.0'
+version = '1.1'
 group = 'daripher.survivemushrooms'
-archivesBaseName = 'SurviveWithMushrooms-1.18.2'
+archivesBaseName = 'SurviveMushrooms-1.18.2'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 

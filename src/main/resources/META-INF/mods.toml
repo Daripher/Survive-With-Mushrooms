@@ -4,7 +4,7 @@ license="All rights reserved"
 
 [[mods]]
 	modId="survivemushrooms"
-	version="1.0"
+	version="1.1"
 	displayName="Survive with Mushrooms"
 	authors="Daripher"
 	description='''Add-on for Survive mod that adds mushrooms.'''
