@@ -13,7 +13,7 @@ public class SaturationMobEffect extends InstantenousMobEffect {
 	@Override
 	public void applyEffectTick(LivingEntity livingEntity, int effectLevel) {
 		if (livingEntity instanceof Player player) {
-			player.getFoodData().eat(4 * (effectLevel + 1), 2F * (effectLevel + 1));
+			player.getFoodData().eat(effectLevel + 1, 0.5F * (effectLevel + 1));
 		}
 	}
 }

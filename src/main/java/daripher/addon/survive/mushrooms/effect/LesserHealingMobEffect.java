@@ -11,6 +11,6 @@ public class LesserHealingMobEffect extends InstantenousMobEffect {
 
 	@Override
 	public void applyEffectTick(LivingEntity livingEntity, int effectLevel) {
-		livingEntity.heal(effectLevel + 1F);
+		livingEntity.heal(effectLevel + 1);
 	}
 }
